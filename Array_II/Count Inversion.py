@@ -42,8 +42,8 @@ def noOfinversion(arr,n):
     return mergeSort(arr,0,n-1)
     
 if __name__ == "__main__":
-    a = [5, 4, 3, 2, 1]
-    n = 5
+    a = [3, 2, 1]
+    n = 3
     cnt = noOfinversion(a, n)
     print(cnt)
 
